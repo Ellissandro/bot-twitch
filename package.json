@@ -1,13 +1,21 @@
 {
-  "name": "chatbot",
+  "name": "bot-twitch",
   "version": "1.0.0",
   "description": "Chat Bot para twitch.tv",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LumusCode/bot-twitch.git"
+  },
   "author": "Diego Freitas",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LumusCode/bot-twitch/issues"
+  },
+  "homepage": "https://github.com/LumusCode/bot-twitch#readme",
   "dependencies": {
     "tmi.js": "^1.4.5"
   }

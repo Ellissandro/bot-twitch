@@ -12,11 +12,11 @@ const options = {
 
     identify: {
       username: "bot_sofia",
-      password: "4v9i53erm54mmtzts6th235x19vh7w"
+      password: "oauth:ohoaqkxrw5t3152brd4pbcmxjfdxdm"
     },
 
   // Caso queira criar bots para outros canais.
-  channels: ['LumusCode']
+  channels: ['bot_sofia']
 }
 
 const client = new tmi.client(options)
