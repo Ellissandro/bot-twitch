@@ -3,20 +3,20 @@ const tmi = require('tmi.js')
 
 const options = {
     options: {
-        debug: true
+      debug: true
     },
 
     connection: {
-        reconnect: true
+      reconnect: true
     },
 
     identify: {
-        username: "bot_sofia",
-        password: "4v9i53erm54mmtzts6th235x19vh7w"
+      username: "bot_sofia",
+      password: "4v9i53erm54mmtzts6th235x19vh7w"
     },
 
-    // Caso queira criar bots para outros canais.
-    channels: ['LumusCode']
+  // Caso queira criar bots para outros canais.
+  channels: ['LumusCode']
 }
 
 const client = new tmi.client(options)
@@ -52,3 +52,5 @@ function rollTest () {
   function onConnectedHandler (addr, port) {
     console.log(`* Conectado em ${addr}:${port}`)
   }
+
+  
