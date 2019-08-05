@@ -35,8 +35,8 @@ function onMessageHandler (target, context, msg, self) {
 
   // Se o comando é conhecido, vamos executá-lo
   if (commandName === '!teste') {
-    const num = rollTest();
-    client.say(target, `Voce executou um ${num}`)
+    const command = rollTest();
+    client.say(target, `Voce executou um ${command}`)
     console.log(`* Comando ${commandName} executado`)
   } else {
     console.log(`* Comando desconhecido ${commandName}`)
