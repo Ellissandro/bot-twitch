@@ -15,12 +15,8 @@
   "bugs": {
     "url": "https://github.com/LumusCode/bot-twitch/issues"
   },
-  
   "homepage": "https://github.com/LumusCode/bot-twitch#readme",
-
   "dependencies": {
     "twitch-bot": "^1.3.5"
   }
 }
-
-
